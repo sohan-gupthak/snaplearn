@@ -2,6 +2,9 @@
 
 SnapLearn is an innovative educational platform that uses AI to transform video content into interactive learning experiences. Upload educational videos, and SnapLearn will automatically transcribe the content and generate quiz questions to help students test their understanding.
 
+## Backend Repository
+https://github.com/sohan-gupthak/snaplearn-backend
+
 ## Demo
 
 ![Screenshot 2025-05-25 180614](https://github.com/user-attachments/assets/96b3b739-3489-458d-93e4-873ac2425e7c)
