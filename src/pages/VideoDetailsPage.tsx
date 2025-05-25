@@ -551,7 +551,7 @@ export default function VideoDetailsPage() {
                       key={index}
                       className={`p-3 mb-2 rounded-md cursor-pointer ${
                         index === currentSegmentIndex
-                          ? 'bg-primary/10 border-l-4 border-primary'
+                          ? 'bg-orange-100 border-l-4 border-orange-500 text-orange-900'
                           : segment.questions && segment.questions.length > 0
                             ? 'hover:bg-green-50 border border-green-100'
                             : 'hover:bg-gray-100'
@@ -667,7 +667,7 @@ export default function VideoDetailsPage() {
                               }}
                               className={`px-3 py-1 text-xs rounded-full font-medium transition-colors ${
                                 idx === currentSegmentIndex
-                                  ? 'bg-primary text-white ring-2 ring-primary ring-opacity-50'
+                                  ? 'bg-orange-500 text-white ring-2 ring-orange-300 ring-opacity-50'
                                   : hasQuestions 
                                     ? 'bg-green-100 text-green-800 hover:bg-green-200'
                                     : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
